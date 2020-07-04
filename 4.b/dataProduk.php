@@ -90,6 +90,12 @@ if (isset($_POST["editDataProduk"])) {
 
 if (isset($_GET['del'])) {
 	$id = $_GET['id'];
+	
+	$getPhoto = mysqli_query($conn, "SELECT * FROM produk_tb WHERE id = '$id'");
+	$photo = mysqli_fetch_assoc($getPhoto);
+	$image = "image/upload/".$photo['photo'];
+	if (file_exists($image)) unlink($image);
+	
 	mysqli_query($conn, "DELETE FROM produk_tb WHERE id='$id'");
 
 	if (mysqli_affected_rows($conn)>0){

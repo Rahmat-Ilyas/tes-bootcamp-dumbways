@@ -1,5 +1,5 @@
 # tes-bootcamp-dumbways
-NOTE: Senua jawaban tes bootcamp dumbways batch 21 berada di dalam root repositori (buakn di direktori bootcamp-batch-17);
+NOTE: Semua jawaban tes bootcamp dumbways batch 21 berada di dalam root repositori (buakn di direktori bootcamp-batch-17);
 
 KETERANGAN:
 1. menggunakan bahasa PHP

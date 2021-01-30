@@ -8,3 +8,7 @@ KETERANGAN:
 4. jalankan di browser
 5. untuk sola nomor 4 bagian b berada di direktori "nomor4-b" dan menggunakan database "db_school.sql"
 6. configurasi database bisa di atur di file "config.php"
+7. auth login:
+	email: rahmat.ilyas142@gmail.com
+	password: admin
+	*bisa juga daftar sendiri di menu register

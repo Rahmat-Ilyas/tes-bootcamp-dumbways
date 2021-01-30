@@ -170,7 +170,9 @@ if (isset($_SESSION['session_login'])) {
 								<button id="btnGroupDrop1" type="button" class="btn btn-success btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									Account
 								</button>
-								<div class="dropdown-menu" style="margin-left: 70px;" aria-labelledby="btnGroupDrop1">
+								<div class="dropdown-menu pt-2" style="margin-left: 70px;" aria-labelledby="btnGroupDrop1">
+									<b class="ml-4"><?= $acn['name'] ?></b>
+									<hr style="margin-top: 1px; margin-bottom: 1px;">
 									<a class="dropdown-item" href="#" data-toggle="modal" data-target=".modal-profile">Profile</a>
 									<a class="dropdown-item" href="config.php?logout=true">Logout</a>
 								</div>

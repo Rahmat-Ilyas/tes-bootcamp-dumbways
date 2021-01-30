@@ -85,6 +85,7 @@
 		$sisa_bayar = $harga - $uang_muka;
 		$angsuran = $sisa_bayar/$lama;
 		?>
+		
 		<h4><u>Rincian Pembayaran:</u></h4>
 		<div class="item">
 			<b>Tipe Rumah: </b>

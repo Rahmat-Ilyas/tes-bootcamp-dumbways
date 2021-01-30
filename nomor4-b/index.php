@@ -193,7 +193,7 @@ if (isset($_SESSION['session_login'])) {
 									<div class="card-body">
 										<b><?= substr($dta['name_school'], 0, 15) ?>...</b>
 										<p style="font-size: 12px;"><?= $dta['school_level'] ?> | <?= $dta['status_school'] ?></p>
-										<?php if (isset($_SESSION['session_login'])) { ?>
+										<?php if (isset($_SESSION['user_id']) && $_SESSION['user_id'] == $dta['user_id']) { ?>
 											<div class="row">
 												<a href="#" class="col-sm-4 btn btn-warning btn-sm text-white" data-toggle="modal" data-target="#myModal<?= $dta['id'] ?>">Detail</a>			
 												<a href="#" class="col-sm-4 btn btn-success btn-sm text-white" data-toggle="modal" data-target=".add-edit<?= $dta['id'] ?>">Edit</a>	
